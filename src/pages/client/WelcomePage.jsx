@@ -16,7 +16,7 @@ const WelcomePage = () => {
               <div className="flex flex-col items-center text-center">
                 <span className="material-symbols-outlined text-primary text-5xl mb-2">restaurant</span>
                 <h1 className="text-3xl font-bold text-slate-900 dark:text-white transition-colors">
-                  Ocean's Delight
+                  Table Flow
                 </h1>
               </div>
             </header>

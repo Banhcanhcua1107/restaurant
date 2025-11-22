@@ -5,6 +5,8 @@ import AdminDashboard from '../pages/admin/AdminDashboard';
 import KitchenQueue from '../pages/kitchen/KitchenQueue';
 import CartPage from '../pages/client/CartPage';
 import OrderTrackingPage from '../pages/client/OrderTrackingPage';
+import OrderHistoryPage from '../pages/client/OrderHistoryPage';
+import OrderDetailPage from '../pages/client/OrderDetailPage';
 
 const AppRoutes = () => {
   return (
@@ -14,8 +16,9 @@ const AppRoutes = () => {
       <Route path="/menu" element={<MenuPage />} />  {/* <--- Route cho menu */}
       <Route path="/cart" element={<CartPage />} />
       <Route path="/track" element={<OrderTrackingPage />} />
+      <Route path="/history" element={<OrderHistoryPage />} />
+      <Route path="/order/:id" element={<OrderDetailPage />} />
 
-      
       {/* Kitchen */}
       <Route path="/kitchen" element={<KitchenQueue />} />
 

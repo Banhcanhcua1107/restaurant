@@ -1,8 +1,11 @@
+/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Có thể custom thêm */
-body {
-  @apply bg-slate-100;
+@layer base {
+  body {
+    /* Thiết lập màu nền chung tại đây */
+    @apply bg-slate-50 text-slate-900 dark:bg-[#0B1426] dark:text-white transition-colors duration-300;
+  }
 }
