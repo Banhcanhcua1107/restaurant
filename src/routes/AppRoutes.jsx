@@ -8,6 +8,9 @@ import OrderTrackingPage from '../pages/client/OrderTrackingPage';
 import OrderHistoryPage from '../pages/client/OrderHistoryPage';
 import OrderDetailPage from '../pages/client/OrderDetailPage';
 
+import KitchenLayout from '../layouts/KitchenLayout';
+import OrderQueue from '../pages/kitchen/OrderQueue';
+
 const AppRoutes = () => {
   return (
     <Routes>
@@ -20,7 +23,12 @@ const AppRoutes = () => {
       <Route path="/order/:id" element={<OrderDetailPage />} />
 
       {/* Kitchen */}
-      <Route path="/kitchen" element={<KitchenQueue />} />
+       <Route path="/kitchen" element={<KitchenLayout />}>
+        {/* Mặc định vào /kitchen sẽ hiện OrderQueue */}
+        <Route index element={<OrderQueue />} />
+        <Route path="queue" element={<OrderQueue />} />
+      </Route>
+
 
       {/* Admin */}
       <Route path="/admin" element={<AdminDashboard />} />
