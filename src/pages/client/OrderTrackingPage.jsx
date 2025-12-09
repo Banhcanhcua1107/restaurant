@@ -14,7 +14,7 @@ const ORDER_DATA = {
   subtotal: 195000,
   fee: 19500,
   total: 214500,
-  image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAitV_A1r8mG1PQYNg9k8Rky9xVbB4TgJWCRGpFQYkTU98I0QisAcdUYm6dfmkqaR3I7ubWqlOd8Hv5fr53liti8-vCScCxg-ZCvILgSGGV85DjJsOTLPVtcxwx5jH2gwb_MqtLCoIs_OmTrtk63FX4ePYcdq2xocThJt2dqT2zk2mwgBMBg5ULPO1Es-wO_-XH9SybNW6ntKogjFHiMPfurzPXGmO3010S3n4psHQAxgIiJdzb0qABF4HOO0YkpY85KVC_rD99upFX"
+  image: "https://placehold.co/600x400"
 };
 
 // Các bước trạng thái

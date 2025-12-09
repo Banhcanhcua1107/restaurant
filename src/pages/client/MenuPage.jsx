@@ -8,42 +8,42 @@ const MENU_ITEMS = [
     name: "Phở Bò Tái Lăn",
     desc: "Nước dùng đậm đà, thịt bò mềm ngọt, bánh phở dai ngon.",
     price: "65.000đ",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBjsB3roFbBoAOaRv9JEqFsBzvG6n8n6OZcPtkG2LMxeDeFn5bZ7ar7qh1kM_P-PVaBDrfEnA-S-fErXDfWNAyZGGl4bb4yOk1UwcYO9y9fO6EJ4eicjXrCaH5udr1KNdnc978YSFD_T8EXpVbKi1eNn0zpkIoseSt880I3Cxu6Lk0yNSw7uxglvVOMpnehFF_I9k5MRur5uTEqJajQYg5EJtxhqNNgIyPIDdwlylkyIGRk5j8wOYipy_bLaZe9wIRAyKd0VfaBoOus",
+    image: "https://placehold.co/600x400",
   },
   {
     id: 2,
     name: "Bún Chả Hà Nội",
     desc: "Chả nướng thơm lừng, nước mắm chua ngọt, ăn kèm bún và rau sống tươi mát.",
     price: "55.000đ",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuASIBkAroHAmTc91JUyhWVpkOOHUHhdqPNLX8jctE96E-Bbrc0Il2xfHUZx8JgSDyubnPvyYfWKzcj2EvfmakmtfCcmI044kJ4PfZ7GmA_mhnphOacGf1MTyCmQt9d14jofIaeom14aaXOP7pyudJuVnPOh5pigTp2eLKxhRxZ4S6C_IJrrbhirbU1LFZTzQ77hL0Zg6zpqX7w_fEnItJNy3FTN0oinB7B35FUA3sg92IQc_nzpIbLjCdp4CX-Zw9UbyJklQ7Zp2GSr",
+    image: "https://placehold.co/600x400",
   },
   {
     id: 3,
     name: "Nem Rán Truyền Thống",
     desc: "Vỏ giòn rụm, nhân thịt mộc nhĩ đậm đà, món khai vị không thể thiếu.",
     price: "45.000đ",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuABwXrjPEWfqX16HEITYk7fcCEUZDjSXrugn74xW2NZsc6DIZL5wBiUZjEcyTknVnX21Kgr7m4ODjf5rNT1gUNygBhLTZcDZ2-0EftqYtyCObCZCF_oWL8fkaa6ffsjJ1HKbHKDNeBqboKnb6UIfKnwZ5LnJmMvJL3m2N7XYKXoWA7fp0BR0GOSMsCIRVgM_cWR4CmCTYCSY6i7f6icGeMY9CkRZ29J9VUTKkxBIwrnVeWDTbjPwZV__Gzgh1fQbEQl59LHJP9s3PWz",
+    image: "https://placehold.co/600x400",
   },
   {
     id: 4,
     name: "Salad Cá Hồi",
     desc: "Cá hồi tươi, rau củ giòn mát hòa quyện cùng sốt dầu giấm chua dịu.",
     price: "85.000đ",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAGlgtIBdBPG2d82Yu5ZD-IYm94L2sGT7ZX36qfT7ROFS7-Xbam-O9sVAfxXIRYlqQcfZPQY-GrkaxIf8b3HCEANvYalDQ51VYE5Ly-IndImfYJ8P1TZVqCNMTFlLI09meez38o17m05Tx2NiRbMRfq7ngmxav_3qVdjwAN68QWY0V0pNj2xyc7Pw0pan0PLCSzVRy-3JfMGkhaO2oX8ILZfm-MYY403slgIe8mWMVQlgETM6uwXrO2Etr-WP83GHukRiJjp32prXjz",
+    image: "https://placehold.co/600x400",
   },
   {
     id: 5,
     name: "Bò Bít Tết Sốt Tiêu",
     desc: "Thịt bò mềm mọng, sốt tiêu đen cay nồng, ăn kèm khoai tây chiên giòn.",
     price: "150.000đ",
-    image: "ERROR_URL_TO_TEST_PLACEHOLDER", 
+    image: "https://placehold.co/600x400", 
   },
   {
     id: 6,
     name: "Chè Khúc Bạch",
     desc: "Thanh mát, ngọt dịu với khúc bạch mềm mịn, nhãn tươi và hạnh nhân giòn tan.",
     price: "35.000đ",
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAIqi-kt7sXgoULANy9PZ8ZfJKK56Z8m0-CX3her2rfdugikQOsgYLsBcsp_1NtrB7QG15F2WeYm1_zhtfXQCsmRoR0fI3ymd5EIBc97A1WAAspyI4-Vl8YYSBHNWYkfrFnLK6Dv2PG2_kpS9SvJibmtTDHz3f-GCC_lxvUzYDKBBxLIcKXLwqHn7Z8bs6S4_cXmVDiG--EBoSJfthPk9tF9_KfJKtTx3vZk7N8Wn5jCB1zhOuKvvPVAopPE85XqvNkC77hcO-JjBbs",
+    image: "https://placehold.co/600x400",
   }
 ];
 
@@ -64,7 +64,7 @@ const MenuPage = () => {
                <path clipRule="evenodd" d="M39.475 21.6262C40.358 21.4363 40.6863 21.5589 40.7581 21.5934C40.7876 21.655 40.8547 21.857 40.8082 22.3336C40.7408 23.0255 40.4502 24.0046 39.8572 25.2301C38.6799 27.6631 36.5085 30.6631 33.5858 33.5858C30.6631 36.5085 27.6632 38.6799 25.2301 39.8572C24.0046 40.4502 23.0255 40.7407 22.3336 40.8082C21.8571 40.8547 21.6551 40.7875 21.5934 40.7581C21.5589 40.6863 21.4363 40.358 21.6262 39.475C21.8562 38.4054 22.4689 36.9657 23.5038 35.2817C24.7575 33.2417 26.5497 30.9744 28.7621 28.762C30.9744 26.5497 33.2417 24.7574 35.2817 23.5037C36.9657 22.4689 38.4054 21.8562 39.475 21.6262ZM4.41189 29.2403L18.7597 43.5881C19.8813 44.7097 21.4027 44.9179 22.7217 44.7893C24.0585 44.659 25.5148 44.1631 26.9723 43.4579C29.9052 42.0387 33.2618 39.5667 36.4142 36.4142C39.5667 33.2618 42.0387 29.9052 43.4579 26.9723C44.1631 25.5148 44.659 24.0585 44.7893 22.7217C44.9179 21.4027 44.7097 19.8813 43.5881 18.7597L29.2403 4.41187C27.8527 3.02428 25.8765 3.02573 24.2861 3.36776C22.6081 3.72863 20.7334 4.58419 18.8396 5.74801C16.4978 7.18716 13.9881 9.18353 11.5858 11.5858C9.18354 13.988 7.18717 16.4978 5.74802 18.8396C4.58421 20.7334 3.72865 22.6081 3.36778 24.2861C3.02574 25.8765 3.02429 27.8527 4.41189 29.2403Z" fill="currentColor" fillRule="evenodd"></path>
             </svg>
           </div>
-          <h2 className="text-xl font-bold tracking-tight hidden sm:block">Ocean's Delight</h2>
+          <h2 className="text-xl font-bold tracking-tight hidden sm:block">TableFlow</h2>
         </div>
 
         {/* --- CỤM NÚT BÊN PHẢI --- */}

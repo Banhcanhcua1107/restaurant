@@ -8,21 +8,21 @@ const INITIAL_CART = [
     name: "Phở Bò Tái Lăn",
     price: 120000,
     quantity: 1,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAhyK2p3kdsf32w8CyCd1xkTPoy5sUkJ6aVGqCF9uP67DpJtUcdvZM3XmN0ytLHdTVhMp_w45KRIOCbjZpJsKBU9U5oNTQtY_mZEv_NJ7zmpXHa8PV79cfxCESGVIVxVw4GIVnqXW67kqi7C0H_BOtQ0JZuhmaCl3F6sd_Yyc9-B1L-WBIEYr0eG2QR0EGg3VHH0g8VtGMWqIRM_yvzx7PcG8Ea7dqOMBiMsmXjEZRpmFqDChXnFd8gKJ-UvDabGL3ycNIcQlowMJO4"
+    image: "https://placehold.co/600x400"
   },
   {
     id: 2,
     name: "Nem Chua Rán",
     price: 60000,
     quantity: 2,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDIeSVI524cRUGBT7FFXhC04EsP9hxWkRb4udkoct0RViCIF1TEANUAmB0pL7cJbSh3QNjr1beudGT9YlihtpeRn8x6F9NMlLBLR6GvvxvSvxd6NuGjyhCWam1Jw2RezT_8P8aTgnegspD5Qvh26tUPjYDnFgXh1rZp8nMxgFQp2wBPCRU5Q6HD9F2nQYGO5JDBza_M2_gM545YunpzjmGT_aO-jofkGn8XqTbsmiqtzOs__ApaIYi8aq3MsQPl1bPMoD-9sD4wyWXa"
+    image: "https://placehold.co/600x400"
   },
   {
     id: 3,
     name: "Trà Chanh",
     price: 25000,
     quantity: 1,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuB7Qnop7Vsnd_UIjfIKXO08Kor3VSkepUfDYh-sZzBbRQZIMsB0Bg3OXet6gtWTGaG_E8v2vpW-iWQKwO86P0wWieRKXEgIFURQ-ZlhzrM2yIr1CSKudywWlS7Nk947OjZRegXJRW16VwfeJrFhaCsCrf2w9JUdcei5JgGnY9D098JAt_iMmiKVurOYcP3JV-d2ozKHjbT-gIBuK--6EVhI3rTgdjMMG8juE2DiQhJZiKynIgILKV2hZnLljnl9X1ySmxGFJohQ7iV9"
+    image: "https://placehold.co/600x400"
   }
 ];
 

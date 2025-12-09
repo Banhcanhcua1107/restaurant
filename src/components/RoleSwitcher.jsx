@@ -7,9 +7,27 @@ const RoleSwitcher = () => {
   const location = useLocation();
 
   const roles = [
-    { label: 'Khách Hàng', path: '/', icon: 'restaurant_menu', color: 'text-primary' },
-    { label: 'Bếp (Kitchen)', path: '/kitchen', icon: 'skillet', color: 'text-orange-500' },
-    { label: 'Quản Trị (Admin)', path: '/admin', icon: 'dashboard', color: 'text-red-500' }
+    { 
+      label: 'Khách Hàng', 
+      path: '/', 
+      icon: 'restaurant_menu', 
+      // Sửa tại đây: Thêm dark:text-sky-400 để ép buộc màu icon khi nền tối
+      color: 'text-primary dark:text-sky-400' 
+    },
+    { 
+      label: 'Bếp (Kitchen)', 
+      path: '/kitchen', 
+      icon: 'skillet', 
+      // Sửa tại đây: Thêm dark:text-orange-400
+      color: 'text-orange-500 dark:text-orange-400' 
+    },
+    { 
+      label: 'Quản Trị (Admin)', 
+      path: '/admin', 
+      icon: 'dashboard', 
+      // Sửa tại đây: Thêm dark:text-red-400
+      color: 'text-red-500 dark:text-red-400' 
+    }
   ];
 
   const handleSwitch = (path) => {
@@ -21,7 +39,6 @@ const RoleSwitcher = () => {
     <div className="relative"> 
       {/* MENU DROPDOWN (HIỆN LÊN TRÊN) */}
       {isOpen && (
-        // Sửa logic: bottom-12 (hiện lên trên) thay vì top-12 (xuống dưới)
         <div className="absolute bottom-12 left-0 w-56 rounded-xl bg-white p-2 shadow-xl ring-1 ring-gray-900/5 dark:bg-slate-900 dark:ring-white/10 animate-fade-in-up origin-bottom-left">
           <div className="mb-2 px-2 py-1.5 text-xs font-semibold uppercase tracking-wider text-gray-500 dark:text-gray-400">
             Chọn Vai Trò
@@ -38,6 +55,7 @@ const RoleSwitcher = () => {
                     : 'text-slate-700 hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800'}
                 `}
               >
+                {/* Class màu của icon bây giờ đã có dark:text-... nên sẽ không bị đè bởi nút cha nữa */}
                 <span className={`material-symbols-outlined ${role.color} text-[20px]`}>
                   {role.icon}
                 </span>

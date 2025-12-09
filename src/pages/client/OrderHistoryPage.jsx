@@ -10,7 +10,7 @@ const MOCK_ORDERS = [
     status: "completed", // completed | cancelled | pending
     itemsCount: 2,
     total: 350000,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBtxac9SC82s_YkqvnizGZnpep5nJB8vSpg5HHbdhguVMK5B8fh21MxzhXe2byFmSQMt2murRsEYpotalPD3pvtzN5Upi8LZp_8lhDlO-4fZ2w3RJF0j39Oca4hTvZBHfw_Cu5XUoLdrjLLRMYA5jAP9PY7x0OIe3DNAsnK0HjNfuRxd2-7zrXuomN_m7f8AeVgNDz143DeQ5dDzq8-MgdW4yAaqZYwBA_9JcGduGbZlu78nsci2oXL2RBroqvRrlzkVH33aQoBpPau"
+    image: "https://placehold.co/600x400"
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ const MOCK_ORDERS = [
     status: "pending", // Món đang chờ
     itemsCount: 3,
     total: 750000,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuALJ3Otq5oOIvznqSPBZ5D3VH6zyXTGat5iSCMy4AWuBx9AAxHffkbDc7s3XGBo4uaV13joopjIqHsrOQJ-Rh3Jecu89amV-ecEdZCnqJ9OZAZ50B1TLq_jLQy0D4pAj9scyI4x23tfap3OigSgoCkCHdTrVeQQKea-P4b7pehS2VE0CaGWq0I26Y603gEvQvtql06xumG5ze9QeQtHxQ-rXzeYspnDQWCOtbKAqOo61igfWNHhK8J6kTHVcg8IuGoGEAa5Ls5jwP9G"
+    image: "https://placehold.co/600x400"
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const MOCK_ORDERS = [
     status: "cancelled",
     itemsCount: 2,
     total: 180000,
-    image: "https://lh3.googleusercontent.com/aida-public/AB6AXuCbEwMSswpz7mZy_cKym8j_bGWJkuvBdB8aq0qzfauNGQ-rU273cu-zR6nXs2hJahUlVnTp0dyomtyWHj-unptRoKpyJjUUlYbuf6OX1lajbKWPHe1bCxSssAUmSmNObXJWzABKEwzcpZqXRcpWTZHPwVqy7HOlGRYEGBUboMcsNteXdo_Kscjl9hY0mvI5gh1YkUCj0q-X6NS5aJU4Ac-y9vmMmifvu6zeMCL7lcLCHx0VZf5Y_DD9X6mOHeo0MjRo9dxNP5e7XFzE"
+    image: "https://placehold.co/600x400"
   },
 ];
 

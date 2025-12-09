@@ -1,5 +1,6 @@
 import React from 'react';
 import { Outlet, NavLink, useNavigate } from 'react-router-dom';
+import logo from '../assets/1.png';
 
 const KitchenLayout = () => {
   const navigate = useNavigate();
@@ -21,7 +22,7 @@ const KitchenLayout = () => {
         {/* Logo & Menu */}
         <div className="flex flex-col gap-6">
           <div className="flex items-center gap-3">
-            <div className="h-10 w-10 shrink-0 rounded-full bg-cover bg-center" style={{ backgroundImage: 'url("https://lh3.googleusercontent.com/aida-public/AB6AXuBO2ImDY_YGsvBp6RkZnSet00HKMHurAwq34yqyBcqUghgmCWZU-clDXqTRbwLAevJWSnufKAybB5RSvmiHsyOzg9fTeKsESOfNqMhsTJ7j-XP0YSsNwf5sjHnn46jsign1jRkuPEbsGPALYf-oenQmiJ3TcqDrxILa46j5MvwsHjavluqMBhf118Vdx0UpTNtGaSmVNZe09Chmqw6iev8V_xWIUoeNZpcNoZD6Ad3rxMfJEuCLtJ0jAbcC4H0Z-mu9ANurILpDS6-G")' }}></div>
+            <div className="h-10 w-10 shrink-0 rounded-full bg-cover bg-center" style={{ backgroundImage: `url(${logo})` }}></div>
             <div className="flex flex-col">
               <h1 className="text-base font-bold text-gray-800 dark:text-white">Table Flow</h1>
               <p className="text-sm text-gray-500 dark:text-gray-400">Quản lý bếp</p>
@@ -48,7 +49,7 @@ const KitchenLayout = () => {
           </nav>
         </div>
 
-        {/* Bottom Actions
+        {/* Bottom Actions */}
         <div className="flex flex-col gap-1 border-t border-gray-100 pt-4 dark:border-gray-800">
            {/* Nút thoát về trang chủ khách hàng để demo */}
           {/* <button onClick={() => navigate('/')} className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200">
@@ -59,18 +60,13 @@ const KitchenLayout = () => {
           <button className="flex items-center gap-3 rounded-lg px-3 py-2 text-gray-600 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-gray-200">
             <span className="material-symbols-outlined">settings</span>
             <p className="text-sm font-medium">Cài Đặt</p>
-          </button>
+          </button> */}
           <button className="flex items-center gap-3 rounded-lg px-3 py-2 text-red-600 hover:bg-red-50 dark:text-red-400 dark:hover:bg-red-900/10">
             <span className="material-symbols-outlined">logout</span>
             <p className="text-sm font-medium">Đăng Xuất</p>
           </button>
-        </div> */} 
+        </div>
 
-        {/* 
-           Có thể comment
-           
-           nhiều dòng thế này 
-        */}
       </aside>
 
       {/* MAIN CONTENT AREA */}
